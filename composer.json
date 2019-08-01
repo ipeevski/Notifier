@@ -1,6 +1,6 @@
 {
-    "name":"codeception/notifier",
-    "description":"Notification Extension for Codeception",
+    "name":"ipeevski/pauseonfail",
+    "description":"Extension for Codeception to Pause on Fail",
     "keywords":["notification", "acceptance testing", "functional testing", "unit testing", "tdd"],
     "homepage":"http://codeception.com/",
 
@@ -8,21 +8,16 @@
     "license":"MIT",
     "authors":[
         {
-            "name":"Michael Bodnarchuk",
-            "email":"davert.php@mailican.com",
-            "homepage":"http://codeception.com"
+            "name":"Ivan Peevski",
+            "email":"ipeevski@gmail.com"
         }
     ],  
-    "require": {
-        "namshi/notificator": "1.0.*"
-    },
     "require-dev": {
         "codeception/codeception": "@dev"
     },
     "autoload":{
         "psr-0":{
             "Codeception":"src"
-     
         }
     }    
 }
