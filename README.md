@@ -27,7 +27,7 @@ extensions:
 
 ```
 
-## Ubuntu Notifications
+## Pause
 
 Class: **Codeception\Extension\PauseOnFail**.
 
