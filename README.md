@@ -26,6 +26,7 @@ extensions:
       - Codeception\Extension\PauseOnFail
 
 ```
+4. For the pause to have an effect, you need to run codeception in debugging mode, with the `--debug` flag
 
 ## Pause
 
