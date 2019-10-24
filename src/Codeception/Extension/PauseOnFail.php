@@ -14,8 +14,11 @@ class PauseOnFail extends Extension {
 
     public function pause(TestEvent $event)
     {
-        $I = new \AcceptanceTester($event->getTest()->getScenario());
-        $I->pause();
+	    $metaData = $event->getTest()->getMetadata()->getCurrent();
+
+	    $actor = $metaData['actor'];
+	    $I = new $actor($event->getTest()->getScenario());
+	    $I->pause();
     }
 }
 
